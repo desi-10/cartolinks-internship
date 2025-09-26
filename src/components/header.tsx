@@ -1,21 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import {
-  Home,
-  Image,
-  Video,
-  Wand2,
-  PenTool,
-  Triangle,
-  Folder,
-  Bell,
-  Sun,
-  Moon,
-  Menu,
-  X,
-  ChevronDown,
-} from "lucide-react";
+import { Sun, Moon, Menu, X } from "lucide-react";
 import { useTheme } from "next-themes";
 import { IoMoon, IoNotifications, IoVideocam } from "react-icons/io5";
 import { FaFolder } from "react-icons/fa";
