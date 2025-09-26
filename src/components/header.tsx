@@ -32,7 +32,7 @@ const Header = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <header className="w-full sticky top-0 left-0 z-50 bg-white/50 dark:bg-gray-900/60 backdrop-blur-lg border-gray-200 dark:border-gray-700">
+    <header className="w-full sticky top-0 left-0 z-50 bg-white/60 dark:bg-gray-900/60  border-gray-200 dark:border-gray-700">
       <div className="container mx-auto flex items-center justify-between md:px-8">
         {/* Left: Logo + Username */}
         <div className="flex items-center gap-x-4">

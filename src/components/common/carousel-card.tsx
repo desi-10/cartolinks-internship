@@ -29,15 +29,15 @@ const CarouselCard = ({
       </div>
 
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/20 rounded-3xl mx-3" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-gray-950/30 dark:bg-gradient-to-t dark:from-black dark:to-gray-900/10 rounded-3xl mx-3" />
 
       {/* Content overlay */}
       <div className="absolute inset-0 p-8 flex flex-col justify-end text-white mx-2">
-        <span className="absolute top-7 text-xs uppercase tracking-wide text-gray-200 dark:text-gray-400">
+        <span className="absolute top-7 text-xs uppercase tracking-wide text-white dark:text-gray-400">
           {label}
         </span>
 
-        <h2 className="absolute top-[40%] w-full text-7xl text-center font-bold text-white dark:text-gray-100">
+        <h2 className="absolute top-[40%] w-full text-7xl text-center font-bold text-white dark:text-gray-100 text-shadow-sm text-shadow-black/50">
           {title}
         </h2>
 

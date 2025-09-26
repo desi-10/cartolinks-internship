@@ -3,9 +3,9 @@ import { IoVideocam } from "react-icons/io5";
 import { TbWritingSign } from "react-icons/tb";
 import { ImMagicWand } from "react-icons/im";
 import { BiPencil } from "react-icons/bi";
-import { RiVoiceprintFill } from "react-icons/ri";
 import { GiRunningNinja } from "react-icons/gi";
 import { FaPaintBrush } from "react-icons/fa";
+import { PiMicrophoneStageFill } from "react-icons/pi";
 
 export const features = [
   {
@@ -47,7 +47,7 @@ export const features = [
     title: "Video Lipsync",
     isNew: true,
     description: "Lip sync any video to any audio.",
-    icon: RiVoiceprintFill,
+    icon: PiMicrophoneStageFill,
     iconBg: "bg-gradient-to-t from-green-200 to-green-500",
   },
   {
@@ -74,7 +74,7 @@ export const slides = [
     description:
       "Generate complex images with the brand new and powerful WAN 2.2 model. Exceptional prompt adherence and ultra-realistic textures.",
     buttonText: "Try WAN 2.2",
-    image: "./anime.jpg",
+    image: "./woman.jpg",
   },
   {
     label: "OPEN SOURCE MODEL",
@@ -92,7 +92,7 @@ export const slides = [
     description:
       "Experience instant creative feedback with our realtime AI rendering engine. Draw, adjust, and generate without waiting.",
     buttonText: "Start Realtime",
-    image: "./woman.jpg",
+    image: "./anime.jpg",
   },
   // {
   //   label: "ENHANCER TOOL",
