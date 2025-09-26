@@ -1,10 +1,11 @@
 import React from "react";
+import { IconType } from "react-icons";
 
 type Props = {
   title: string;
   isNew: boolean;
   description: string;
-  icon: any;
+  icon: IconType;
   iconBg: string;
 };
 
