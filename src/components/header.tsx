@@ -42,12 +42,9 @@ const Header = () => {
             } flex items-center justify-center text-white dark:text-black font-bold`}
           >
             {theme === "dark" ? (
-              <img src="./logo2.png" alt="" />
+              <img src="./logo2.png" alt="white-logo" />
             ) : (
-              <img
-                src={theme === "dark" ? "./logo2.png" : "./logo.png"}
-                alt=""
-              />
+              <img src="./logo.png" alt="black-logo" />
             )}
           </div>
           <span className="hidden font-medium text-gray-500 dark:text-gray-200 lg:flex items-center lg:space-x-2">
