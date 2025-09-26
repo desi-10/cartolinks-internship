@@ -94,14 +94,15 @@ export const slides = [
     buttonText: "Start Realtime",
     image: "./anime.jpg",
   },
-  // {
-  //   label: "ENHANCER TOOL",
-  //   title: "Enhancer",
-  //   subtitle: "Upscale up to 22K",
-  //   description:
-  //     "Upscale and enhance your images or videos to ultra-high resolution with powerful detail preservation and clarity.",
-  //   buttonText: "Enhance Now",
-  // },
+  {
+    label: "ENHANCER TOOL",
+    title: "Enhancer",
+    subtitle: "Upscale up to 22K",
+    description:
+      "Upscale and enhance your images or videos to ultra-high resolution with powerful detail preservation and clarity.",
+    buttonText: "Enhance Now",
+    image: "./ai.jpg",
+  },
   // {
   //   label: "VIDEO LIPSYNC",
   //   title: "Video Sync",
